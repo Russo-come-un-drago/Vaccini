@@ -1,0 +1,54 @@
+/* ! Base Style */
+
+body{font-family: 'Inter', sans-serif;}
+
+
+
+
+/* !  Header */
+
+.header{
+	border: 1px solid red;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	padding: 30px;
+	display: flex;
+	background: #000;
+}
+
+.logo{
+	border: 1px solid red;
+		display: flex;
+
+}
+
+.menu{
+	border: 1px solid red;
+	width: 100%;
+}
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff;}
+
+
+.cta{
+	border: 1px solid red;
+}
+
+.nav_header{
+	border: 1px solid red;
+	width: 100%;
+	position: fixed;
+	top:100;
+	left:0;
+	padding: 30px;
+	display: flex;
+	background: #ccc;
+}
+.header_special_link{
+	border: 1px solid red;
+	width: 100%;
+}
+

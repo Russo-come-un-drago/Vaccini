@@ -1,0 +1,38 @@
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.menu{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+.inline{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+/* https://www.w3schools.com/css/css_link.asp */
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+	}	
+	
+.button:hover {
+    background-color: #059862;
+    color: white;
+}
