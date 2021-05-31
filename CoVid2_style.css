@@ -1,52 +1,18 @@
 /* ! Base Style */
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-#cont {display: none; }
-	.show:focus + .hide {display: inline; }
-	.show:focus + .hide + #cont {display: block;}
 		  
-cont {
+}.cont {
 	background-color: #dddddd;
 }
 
-.divDomande
-    {
-        display:  table;
-        width:auto;
+
+.divDomande {
+		margin: auto;
+        width:60%;
         background-color:#eee;
         border:1px solid  #666666;
         border-spacing:5px;/*cellspacing:poor IE support for  this*/
        /* border-collapse:separate;*/
     }
 	
-.button {
-    background-color: white;
-    color: black;
-    border: 2px solid #04AA6D;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 20px;
-	}	
-	
-.button:hover {
-    background-color: #059862;
-    color: white;
-}
+

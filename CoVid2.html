@@ -1,50 +1,57 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Domande</title>
 
+<meta charset="UTF-8">
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<title>Domande</title>
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="header_style.css">
+<link rel="stylesheet" href="body_style.css">
 <link rel="stylesheet" href="CoVid2_style.css">
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+</head>
 
 
 </head>
 <body>
 
-<p><a class=button href="CoVid_tabella.html">Tabella CSS</a></p>
-
-<div id="header-fisso">
-		<div class="top-bar">
-			<div style="width: 33.3%">
-				<div id="nav-sole" class="float-left l24-sole-icon"></div>
-			</div>
-			<div class="text-center" style="width: 33.3%">
-				<div id="nav-lab" class="l24-lab-icon"></div>
-			</div>
-			<div class="text-center" style="width: 33.3%">
-			</div>
-			<div class="l24-float-right nascosto">
-				<div class="cell text-center">
-					<span class="condividiFB faN fa fa-facebook animato"></span>
-					<span class="condividiTW faN fa fa-twitter animato"></span>
-					<span class="condividiIN faN fa fa-linkedin animato"></span>
-					<!--
-					<span class="condividiRS fa fa-rss animato"></span>
-					-->
-				</div>
-			</div>
+	<div class="header">
+		<div class="logo" style="width: 33.3%" >
+			<img src="Logo_Il_Sole_24_Ore.png" alt="Sole24Ore">
+		</div>
+		<div class="logo" style="width: 33.3%" >
+			<img src="Lab24.png" alt="Lab24" class="center"> 
+		</div>
+		<div class="logo" style="width: 33.3%">
+			<img src="instagram-logo-white-on-black.png"; alt="Instagram"; class="right";>
 		</div>
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	
-	
+	<p><a class=button href="CoVid_tabella.html">Tabella CSS</a></p>
+	<br>
+	<br>
+
 	<!-- http://jsfiddle.net/6W7XD -->
 
 	<div class="divDomande">	
 	<div>
-		<p><b>Come avviene la trasmissione del virus?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
+		<div class="normal-text">
+			Come avviene la trasmissione del virus?
+		</div>
+		<div class="cont reveal">
 		<p>Il virus Sars-CoV-2 si trasmette soprattutto attraverso il contatto 
 	con una persona malata o che comunque ha contratto l'infezione. 
 	La via di trasmissione più semplice sono le goccioline emesse con 
@@ -55,13 +62,13 @@
 	(<a href=https://www.ecdc.europa.eu/en/covid-19/questions-answers>Ecdc</a>).</p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Quante particelle virali occorrono per contagiarsi?</b></p>		
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
-	
+		<div class="normal-text">
+			Quante particelle virali occorrono per contagiarsi?
+		</div>
+		<div class="cont reveal">	
 	<p>In chiave sperimentale pare che occorrano anche limitate quantità di 
 	virus per indurre infezione, anche se quanto più la carica virale è alta 
 	tanto maggiori sono I rischi. Altro parametro importante è il tempo di 
@@ -72,15 +79,15 @@
 	meno di 1000 particelle virali per contagiare una persona</a>. 
 	Ovviamente, come detto, la carica virale del soggetto che può trasmettere 
 	il virus è fondamentale.</p>
-
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Quali sono gli ambienti a maggior trasmissione?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
+		<div class="normal-text">
+			Quali sono gli ambienti a maggior trasmissione?
+		</div>
+		<div class="cont reveal">	
 	<p>La trasmissione in ambienti chiusi è molto più probabile rispetto a quanto può 
 	avvenire all'aperto, specie se si sta a distanza. Ma anche attraverso aerosol. 
 	Nell'aerosol la permanenza del Sars2-COv-19 può essere anche di tre ore, seppur 
@@ -104,12 +111,13 @@
 	cui il virus può permanere.</p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Chi sono i superdiffusori?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
+		<div class="normal-text">
+			Chi sono i superdiffusori?
+		</div>
+		<div class="cont reveal">	
 	<p>Uno dei casi più noti e drammatici è stato quello del coro di Mount Vernon, 
 	stato di Washington: lì il 10 marzo 61 coristi si sono ritrovati per più di 
 	due ore a provare, mangiare, stare insieme. Ma uno di loro da tre giorni 
@@ -178,12 +186,13 @@
 	
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Gli asintomatici trasmettono il virus?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">	
+		<div class="normal-text">
+			Gli asintomatici trasmettono il virus?
+		</div>
+		<div class="cont reveal">	
 	<p>Fino dai primi giorni, una delle domande più pressanti è stata 
 	quella relativa al ruolo degli asintomatici, che con ogni probabilità 
 	hanno contribuito non poco alla diffusione del Sars-CoV 2 in Europa prima 
@@ -201,12 +210,13 @@
 	<a href=https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Ftransmission.html>CDC</a>.</p><p>Ma la questione più importante è: quanto sono pericolosi gli asintomatici? Quanto efficacemente diffondono il virus? La domanda, di cui ha scritto anche Bill Gates sullo stesso <a href=https://www.nejm.org/doi/full/10.1056/NEJMp2003762>New England Journal of Medicine</a>, è stata oggetto di molte indagini, dai <a href=https://www.nejm.org/doi/full/10.1056/NEJMc2001899>primi due casi certi segnalati sulla stessa rivista</a>, relativi a due cittadini rientrati in febbraio in Germania dalla Cina, uno dei quali senza sintomi e l'altro con sintomi lievissimi, a un lavoro olandese pubblicato su <a href=https://www.medrxiv.org/content/10.1101/2020.03.05.20031815v1>MedRivX</a> nel quale, su 91 cittadini di Singapore, tra il 48 e il 66% aveva contratto il virus in contatti con persone asintomatiche o lievissimamente sintomatiche. Sempre sullo stesso sito, inoltre, un altro <a href=https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1>studio internazionale condotto in Cina</a> segnalava, in un cluster di 135 casi, un'origine da contatti con persone asintomatiche compresa tra il 67 e il 72%.&nbsp;<br></p><p>Negli ultimi giorni è arrivato poi uno studio, pubblicato su <a href=https://academic.oup.com/cid/article/doi/10.1093/cid/ciaa711/5851471>Clinical Infectious Diseases</a>, importante perché condotto su 14.000 persone poste in quarantena in Vietnam. Tra le 49 positive, metà non aveva sintomi ma, soprattutto, almeno due sono state infettate da altre due persone che non ne avevano.</p><p>Resta insomma da capire quanto e in quali condizioni ideali una persona contagiata ma priva di sintomi o con sintomi talmente lievi da essere difficilmente riconosciuti come tali possa infettarne altre, ma sul fatto che la trasmissione dagli asintomatici, ancorché in misura nettamente inferiore rispetto a quella dai sintomatici, sia possibile, sembrano esserci pochi dubbi.</p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Fino a quando si è contagiosi? E quando lo si è di più?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">	
+		<div class="normal-text">
+			Fino a quando si è contagiosi? E quando lo si è di più?
+		</div>
+		<div class="cont reveal">	
 	<p>Non necessariamente dopo la scomparsa dei sintomi un tampone positiv
 	indica la presenza di virus vitali e soprattutto capaci di infettare. 
 	Lo dimostrano ormai diversi studi, e lo sostiene indirettamente l'OMS quando 
@@ -254,43 +264,130 @@
 	persone, del resto, non è stato isolato, dalle colture dei liquidi biologici, alcun virus 
 	vivo, né sono emerse prove della contagiosità. Al contrario, il 96% di questi malati 
 	aveva anticorpi anti Sars-Cov 2 neutralizzanti.<br></p>
-		</div
+		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Quali farmaci si stanno dimostrando più promettenti?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
+		<div class="normal-text">
+			Quali farmaci si stanno dimostrando più promettenti?
+		</div>
+		<div class="cont reveal">	
 	<p>Al momento una terapia antivirale specifica per l'infezione da Sars-CoV-2 non esiste, 
 	se non si parla dei trattamenti di supporto come l'eparina (perché il virus induce una 
-	abnorme risposta coagulativa che “intasa” il circolo polmonare) o la riduzione della risposta infiammatoria indotta dal virus, sia attraverso farmaci anti_IL6 o come il classico <a href=https://www.recoverytrial.net/>desametasone</a>, che ha dimostrato di ridurre di un terzo la mortalità dei pazienti in ventilazione assistita.</p><p>L'unico antivirale che ad oggi ha dato risultati è Remdesivir, nato per il trattamento dell'infezione da Ebola, soprattutto in termini di <a href=https://www.nejm.org/doi/full/10.1056/NEJMoa2007016>riduzione del ricovero</a> e delle <a href=https://www.nejm.org/doi/full/10.1056/NEJMoa2007764>complicanze</a>. Il farmaco ha avuto il via libera in Europa anche se ci sono anche studi che sembrano indicare un <a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext>effetto poco significativo del farmaco</a>. Mentre stanno sfumando le prime evidenze positive su clorochina e idrossiclorochina, si presta particolare attenzione alla possibilità offerta dal plasma iperimmune, prelevato da soggetti guariti, e quindi agli anticorpi naturali (o anche sintetici) mirati ad offrire protezione per i malati.</p>"
+	abnorme risposta coagulativa che “intasa” il circolo polmonare) o la riduzione della risposta 
+	infiammatoria indotta dal virus, sia attraverso farmaci anti_IL6 o come il classico 
+	<a href=https://www.recoverytrial.net/>desametasone</a>, che ha dimostrato di ridurre 
+	di un terzo la mortalità dei pazienti in ventilazione assistita.</p><p>L'unico antivirale 
+	che ad oggi ha dato risultati è Remdesivir, nato per il trattamento dell'infezione da Ebola, 
+	soprattutto in termini di <a href=https://www.nejm.org/doi/full/10.1056/NEJMoa2007016>
+	riduzione del ricovero</a> e delle 
+	<a href=https://www.nejm.org/doi/full/10.1056/NEJMoa2007764>complicanze</a>. Il farmaco 
+	ha avuto il via libera in Europa anche se ci sono anche studi che sembrano indicare un 
+	<a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext>
+	effetto poco significativo del farmaco</a>. Mentre stanno sfumando le prime evidenze 
+	positive su clorochina e idrossiclorochina, si presta particolare attenzione alla 
+	possibilità offerta dal plasma iperimmune, prelevato da soggetti guariti, e quindi 
+	agli anticorpi naturali (o anche sintetici) mirati ad offrire protezione per i malati.</p>
+		</div>
+    </div>	
+	<br>
+
+	<div>
+		<div class="normal-text">
+			Quali farmaci nei laboratori sembrano essere più promettenti dai primi test?
+		</div>
+		<div class="cont reveal">	
+	<p>La ricerca sta andando a grande velocità in questo settore per soluzioni mirate, 
+	partendo da possibili cure antivirali che agiscano su specifici meccanismi che 
+	possano inibire una o più delle tante fasi replicative di COVID19, dalla sua 
+	“entrata” nelle cellule fino alla possibilità di “ricostruire” il patrimonio 
+	genetico e alla “liberazione” nell'organismo per duplicarsi e continuare nella 
+	sua invasione. Secondo Stefano Vella, docente di Salute Globale all'università 
+	Cattolica di Roma, “probabilmente occorrerà usare una combinazione di farmaci, 
+	oppure usare anticorpi monoclonali”. Gli 
+	<a href=https://www.biorxiv.org/content/10.1101/2020.05.05.078154v2.full.pdf>
+	anticorpi monoclonali</a>, sono studiati anche in Italia. E' partito uno 
+	<a href=https://investor.lilly.com/news-releases/news-release-details/lilly-announces-start-phase-1-study-its-second-potential-covid>
+	studio su diversi farmaci di questo tipo</a> e addirittura per un altro anticorpo si 
+	punta alla disponibilità più a breve. Sono allo studio anche cocktail di anticorpi, 
+	nel tentativo di 
+	<a href=https://science.sciencemag.org/content/early/2020/06/15/science.abd0827>
+	aumentarne l'effetto terapeutico</a>.</p><p>Altra speranza è offerta dall'azione 
+	su una specifica proteasi dei coronavirus che in qualche modo agirebbe come “chiave” 
+	per far entrare il virus all'interno delle cellule polmonari. L'obiettivo è TMPRSS2, 
+	un enzima presente nel corpo umano, utilizzato dal virus come un vero e proprio 
+	“piede di porco” per accedere nelle cellule a replicarsi, su cui 
+	<a href=https://www.sciencedirect.com/science/article/pii/S0092867420302294>
+	potrebbero agire anche farmaci già esistenti</a>.<br></p>
+		</div>
+    </div>	
+	<br>
+
+	<div>
+		<div class="normal-text">
+			Quali sono i progetti di vaccino più promettenti?
+		</div>
+		<div class="cont reveal">	
+	<p>In tutto il mondo stanno sviluppando più di 
+	<a href=https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines>135 vaccini</a> 
+	contro il coronavirus. A oggi: 8 sono in fase 1; 8 in fase 2;&nbsp; 2 in fase 3. 
+	Ben 125 sono in fase preclinica. Si possiamo suddividere per meccanismo d'azione.
+	</p><h3>Vaccini genetici, che utilizzano cioè uno o più geni del virus per provocare 
+	una risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>Fase 2: Il vaccino 
+	a mRNA di&nbsp;Moderna che entrerà in fase III a luglio con la speranza di averlo 
+	pronto all'inizio del 2021.</li><li>Fase 1 e 2. La società tedesca&nbsp;BioNTech&nbsp;
+	ha avviato collaborazioni con&nbsp;Pfizer&nbsp;e la cinese&nbsp;Fosun Pharma&nbsp;per 
+	sviluppare un vaccino a mRNA.&nbsp;A maggio, sono stati annunciati gli studi 
+	sull'uomo&nbsp;e Pfizer spera di avere qualche milione di dosi per un uso di emergenza 
+	in autunno.</li><li>Fase 1 e 2 . I&nbsp;ricercatori&nbsp;dell'Imperial College di 
+	Londra&nbsp;hanno sviluppato un vaccino Rna auto-amplificante, che aumenta 
+	la produzione di una proteina virale per stimolare il sistema immunitario.&nbsp;
+	Hanno iniziato gli studi di Fase I / II il 15 giugno e collaborano con&nbsp;Morningside 
+	Ventures&nbsp;per produrre e distribuire il vaccino attraverso una nuova società 
+	chiamata VacEquity Global Health.</li><li>Fase 1. A maggio, la società americana
+	&nbsp;Inovio ha&nbsp;pubblicato uno studio che dimostra che il loro vaccino a base 
+	di Dna&nbsp;ha&nbsp;sviluppato anticorpi nei topi.&nbsp;Gli studi di fase I sono 
+	in corso negli Stati Uniti e inizieranno in Corea del Sud alla fine di giugno.</li>
+	<li>Preclinica: La tedesca CureVac che non ha ancora avviato studi sull'uomo per 
+	Covid-19, ma un vaccino a Rna contro la rabbia che ha superato i test di sicurezza 
+	di fase I a gennaio.&nbsp;La società ha dichiarato che la sua struttura può 
+	produrre centinaia di milioni di vaccini all'anno.</li></ul><p></p><h3>Vaccini 
+	virali vettoriali, che usano un virus come vettore per rilasciare nelle cellule 
+	i geni del coronavirus e determinare una risposta immunitaria.</h3><ul><li>Fase 2 e 3. 
+	Il Vaccino&nbsp; della società svedese-britannica&nbsp;AstraZeneca&nbsp;e&nbsp;
+	dell'Università di Oxford in collaborazione con l'italiana Irbm&nbsp;utilizza un 
+	adenovirus chiamato ChAdOx1.&nbsp;Il vaccino sta iniziando i test di Fase II / III 
+	in Inghilterra e Brasile.&nbsp;Supportato da Operation Warp Speed, il vaccino potrebbe 
+	arrivare entro ottobre per gli operatori sanitari e le persone più a rischio.&nbsp;
+	A giugno, AstraZeneca ha dichiarato che la loro capacità produttiva totale ammonta 
+	a due miliardi di dosi.</li><li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;
+	sta testando il vaccino basato su un adenovirus chiamato Ad5, in collaborazione con 
+	l'Istituto di biologia&nbsp;dell'Accademia delle scienze mediche militari del&nbsp;
+	paese&nbsp;.&nbsp;A maggio sono stati i primi in assoluto a pubblicare i dati di 
+	uno studio di fase 1 in un 
+	<a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.</li><li>Fase 2 e 3. 
+	Il Vaccino&nbsp; della società svedese-britannica&nbsp;
+	AstraZeneca&nbsp;e&nbsp;dell'Università di Oxford in collaborazione 
+	con l'italiana Irbm&nbsp;utilizza un adenovirus chiamato ChAdOx1.&nbsp;
+	Il vaccino sta iniziando i test di Fase II / III in Inghilterra e Brasile.&nbsp;
+	Supportato da Operation Warp Speed, il vaccino potrebbe arrivare entro ottobre per 
+	gli operatori sanitari e le persone più a rischio.&nbsp;A giugno, AstraZeneca ha 
+	dichiarato che la loro capacità produttiva totale ammonta a due miliardi di dosi.</li>
+	<li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;sta testando il vaccino 
+	basato su un adenovirus chiamato Ad5, in collaborazione con l'Istituto di biologia&nbsp;
+	dell'Accademia delle scienze mediche militari del&nbsp;paese&nbsp;.&nbsp;A maggio sono 
+	stati i primi in assoluto a pubblicare i dati di uno studio di fase 1 in un 
+	<a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.&nbsp;</li><li>Fase 2 e 3. Il Vaccino&nbsp; della società svedese-britannica&nbsp;AstraZeneca&nbsp;e&nbsp;dell'Università di Oxford in collaborazione con l'italiana Irbm&nbsp;utilizza un adenovirus chiamato ChAdOx1.&nbsp;Il vaccino sta iniziando i test di Fase II / III in Inghilterra e Brasile.&nbsp;Supportato da Operation Warp Speed, il vaccino potrebbe arrivare entro ottobre per gli operatori sanitari e le persone più a rischio.&nbsp;A giugno, AstraZeneca ha dichiarato che la loro capacità produttiva totale ammonta a due miliardi di dosi.</li><li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;sta testando il vaccino basato su un adenovirus chiamato Ad5, in collaborazione con l'Istituto di biologia&nbsp;dell'Accademia delle scienze mediche militari del&nbsp;paese&nbsp;.&nbsp;A maggio sono stati i primi in assoluto a pubblicare i dati di uno studio di fase 1 in un <a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.</li><li><p>PRECLINICA. I ricercatori del&nbsp;Beth Israel Deaconess Medical Center&nbsp;di Boston stanno testando un adenovirus chiamato Ad26&nbsp;.&nbsp;Johnson &amp; Johnson, scelto da Operation Warp Speed, ha annunciato a giugno che avrebbero iniziato le prove di Fase I / II a fine luglio.</p></li><li><p>PRECLINICA. La Big pharma americana&nbsp;Merck ha&nbsp;annunciato a maggio lo sviluppo di un vaccino contro i virus della stomatite vescicolare, lo stesso approccio utilizzato con successo per produrre l'unico vaccino approvato per l'Ebola.&nbsp;La società collabora con&nbsp;Iavi (International Aids Vaccine Initiative)&nbsp; un partenariato globale pubblico-privato senza scopo di lucro.</p></li><li><p>PRECLINICA. Il colosso svizzero&nbsp;Novartis&nbsp;produrrà un vaccino basato sulla terapia genica sviluppato dal&nbsp;Massachusetts Eye and Ear Hospital.&nbsp;Le prove di fase I inizieranno alla fine del 2020.</p></li></ul><h3>Vaccini a base di proteine, che usano una proteina del coronavirus o un frammento proteico per provocare la risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>FASE I&nbsp;e II. &nbsp;A maggio,&nbsp;Novavax, con&nbsp;sede nel Maryland,&nbsp;ha&nbsp;iniziato uno studio di fase I / II su un vaccino costituito da particelle microscopiche che trasportano frammenti di proteine ​​di coronavirus.&nbsp;La Coalition for Epidemic Preparedness Innovations sta investendo 384 milioni di dollari nel progetto.</li><li>FASE I. Clover Biopharmaceuticals&nbsp;ha sviluppato un vaccino contenente una proteina di coronavirus.&nbsp;Il vaccino verrebbe abbinato a un cosiddetto adiuvante, prodotto GSK&nbsp;, per stimolare ulteriormente il sistema immunitario.</li><li>PRECLINICA. Dopo l'epidemia di Sars nel 2002, i&nbsp;ricercatori del&nbsp;Baylor College of Medicine&nbsp;hanno iniziato a sviluppare un vaccino in grado di prevenire nuovi focolai.&nbsp;Nonostante i primi risultati promettenti, dopo la scomparsa della Sars è scomparso anche il supporto finanziario per la ricerca.&nbsp;Poiché i coronavirus che causano la Sars e Covid-19 sono molto simili, i ricercatori stanno rilanciando il progetto in collaborazione con il&nbsp;Texas Children's Hospital.</li><li>PRECLINICA. Un vaccino in via di sviluppo&nbsp;dell'Università di Pittsburgh&nbsp;, chiamato PittCoVacc, è un cerotto con&nbsp; 400 minuscoli aghi fatti di zucchero.&nbsp;Quando vengono posizionati sulla pelle, gli aghi si dissolvono e rilasciano proteine ​​virali nel corpo.</li><li>PRECLINICA. Un vaccino&nbsp;dell'Università&nbsp;australiana&nbsp;del Queensland&nbsp;eroga proteine ​​virali alterate per ottenere una risposta immunitaria più forte.&nbsp;A giugno, l'università e la società&nbsp;CSL hanno&nbsp;annunciato una partnership per avviare gli studi di Fase I, che potrebbero portare a milioni di dosi all'anno a partire dal 2021.&nbsp;Anche in questo caso GSK&nbsp;fornisce l'adiuvante per stimolare ulteriormente il sistema immunitario.</li><li>PRECLINICA. La francese&nbsp;Sanofi&nbsp;produrrà proteine ​​virali utilizzando virus ingegnerizzati che crescono all'interno delle cellule degli insetti.&nbsp;GSK&nbsp;integrerà queste proteine ​​con adiuvanti che stimolano il sistema immunitario.&nbsp;Se il vaccino avesse successo negli studi clinici, Sanofi ha affermato di poterne produrre almeno 600 milioni di dosi all'anno.</li><li>PRECLINICA. Il vaccino di&nbsp;Vaxart&nbsp;è una compressa orale contenente diverse proteine ​​virali.&nbsp;A giugno, la società americana ha annunciato che si sta preparando per le prove di Fase I nell'estate 2020.</li></ul><h3>Vaccini contro virus interi, che usano una versione indebolita o inattivata del coronavirus per provocare una risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>FASE I&nbsp;e II. La società privata cinese&nbsp;Sinovac Biotech&nbsp;sta testando un vaccino inattivato chiamato CoronaVac.&nbsp;Il 13 giugno la società ha annunciato che gli studi di fase I / II su 743 volontari non hanno dato effetti avversi gravi e hanno prodotto una risposta immunitaria.&nbsp;Sinovac sta avviando prove di Fase III in Cina e Brasile e sta costruendo una struttura per produrre fino a 100 milioni di dosi all'anno.</li><li>FASE I&nbsp;e II. &nbsp;La società cinese statale&nbsp;Sinopharm&nbsp;ha avviato studi di fase I / II su due virus vaccinali inattivati.&nbsp;La società ha annunciato di aver costruito una struttura a Pechino per produrre fino a 200 milioni di vaccini all'anno.</li><li>FASE I. I ricercatori&nbsp;dell'Istituto di biologia medica dell'Accademia cinese delle scienze mediche, che ha inventato i vaccini per la poliomielite e l'epatite A, stanno conducendo uno studio di fase I su un vaccino virale inattivato per Covid-19.</li></ul><h3>Vaccini riproposti, già in uso per altre malattie che possono anche proteggere da Covid-19.</h3><p><ul><li>FASE III. Il vaccino Bacillus Calmette-Guerin è stato sviluppato nei primi anni del 1900 come protezione contro la tubercolosi.&nbsp;Il&nbsp;Murdoch Children's Research Institute&nbsp;in Australia sta conducendo uno studio di fase 3&nbsp; e sono in corso numerosi altri studi per vedere se il vaccino protegge parzialmente contro il coronavirus.</li></ul></p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Quali farmaci nei laboratori sembrano essere più promettenti dai primi test?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
-	<p>La ricerca sta andando a grande velocità in questo settore per soluzioni mirate, partendo da possibili cure antivirali che agiscano su specifici meccanismi che possano inibire una o più delle tante fasi replicative di COVID19, dalla sua “entrata” nelle cellule fino alla possibilità di “ricostruire” il patrimonio genetico e alla “liberazione” nell'organismo per duplicarsi e continuare nella sua invasione. Secondo Stefano Vella, docente di Salute Globale all'università Cattolica di Roma, “probabilmente occorrerà usare una combinazione di farmaci, oppure usare anticorpi monoclonali”. Gli <a href=https://www.biorxiv.org/content/10.1101/2020.05.05.078154v2.full.pdf>anticorpi monoclonali</a>, sono studiati anche in Italia. E' partito uno <a href=https://investor.lilly.com/news-releases/news-release-details/lilly-announces-start-phase-1-study-its-second-potential-covid>studio su diversi farmaci di questo tipo</a> e addirittura per un altro anticorpo si punta alla disponibilità più a breve. Sono allo studio anche cocktail di anticorpi, nel tentativo di <a href=https://science.sciencemag.org/content/early/2020/06/15/science.abd0827>aumentarne l'effetto terapeutico</a>.</p><p>Altra speranza è offerta dall'azione su una specifica proteasi dei coronavirus che in qualche modo agirebbe come “chiave” per far entrare il virus all'interno delle cellule polmonari. L'obiettivo è TMPRSS2, un enzima presente nel corpo umano, utilizzato dal virus come un vero e proprio “piede di porco” per accedere nelle cellule a replicarsi, su cui <a href=https://www.sciencedirect.com/science/article/pii/S0092867420302294>potrebbero agire anche farmaci già esistenti</a>.<br></p>
+		<div class="normal-text">
+			Quali organi colpisce la malattia?
 		</div>
-    </div>
-	
-	<div>
-		<p><b>Quali sono i progetti di vaccino più promettenti?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
-	<p>In tutto il mondo stanno sviluppando più di <a href=https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines>135 vaccini</a> contro il coronavirus. A oggi: 8 sono in fase 1; 8 in fase 2;&nbsp; 2 in fase 3. Ben 125 sono in fase preclinica. Si possiamo suddividere per meccanismo d'azione.</p><h3>Vaccini genetici, che utilizzano cioè uno o più geni del virus per provocare una risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>Fase 2: Il vaccino a mRNA di&nbsp;Moderna che entrerà in fase III a luglio con la speranza di averlo pronto all'inizio del 2021.</li><li>Fase 1 e 2. La società tedesca&nbsp;BioNTech&nbsp;ha avviato collaborazioni con&nbsp;Pfizer&nbsp;e la cinese&nbsp;Fosun Pharma&nbsp;per sviluppare un vaccino a mRNA.&nbsp;A maggio, sono stati annunciati gli studi sull'uomo&nbsp;e Pfizer spera di avere qualche milione di dosi per un uso di emergenza in autunno.</li><li>Fase 1 e 2 . I&nbsp;ricercatori&nbsp;dell'Imperial College di Londra&nbsp;hanno sviluppato un vaccino Rna auto-amplificante, che aumenta la produzione di una proteina virale per stimolare il sistema immunitario.&nbsp;Hanno iniziato gli studi di Fase I / II il 15 giugno e collaborano con&nbsp;Morningside Ventures&nbsp;per produrre e distribuire il vaccino attraverso una nuova società chiamata VacEquity Global Health.</li><li>Fase 1. A maggio, la società americana&nbsp;Inovio ha&nbsp;pubblicato uno studio che dimostra che il loro vaccino a base di Dna&nbsp;ha&nbsp;sviluppato anticorpi nei topi.&nbsp;Gli studi di fase I sono in corso negli Stati Uniti e inizieranno in Corea del Sud alla fine di giugno.</li><li>Preclinica: La tedesca CureVac che non ha ancora avviato studi sull'uomo per Covid-19, ma un vaccino a Rna contro la rabbia che ha superato i test di sicurezza di fase I a gennaio.&nbsp;La società ha dichiarato che la sua struttura può produrre centinaia di milioni di vaccini all'anno.</li></ul><p></p><h3>Vaccini virali vettoriali, che usano un virus come vettore per rilasciare nelle cellule i geni del coronavirus e determinare una risposta immunitaria.</h3><ul><li>Fase 2 e 3. Il Vaccino&nbsp; della società svedese-britannica&nbsp;AstraZeneca&nbsp;e&nbsp;dell'Università di Oxford in collaborazione con l'italiana Irbm&nbsp;utilizza un adenovirus chiamato ChAdOx1.&nbsp;Il vaccino sta iniziando i test di Fase II / III in Inghilterra e Brasile.&nbsp;Supportato da Operation Warp Speed, il vaccino potrebbe arrivare entro ottobre per gli operatori sanitari e le persone più a rischio.&nbsp;A giugno, AstraZeneca ha dichiarato che la loro capacità produttiva totale ammonta a due miliardi di dosi.</li><li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;sta testando il vaccino basato su un adenovirus chiamato Ad5, in collaborazione con l'Istituto di biologia&nbsp;dell'Accademia delle scienze mediche militari del&nbsp;paese&nbsp;.&nbsp;A maggio sono stati i primi in assoluto a pubblicare i dati di uno studio di fase 1 in un <a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.</li><li>Fase 2 e 3. Il Vaccino&nbsp; della società svedese-britannica&nbsp;AstraZeneca&nbsp;e&nbsp;dell'Università di Oxford in collaborazione con l'italiana Irbm&nbsp;utilizza un adenovirus chiamato ChAdOx1.&nbsp;Il vaccino sta iniziando i test di Fase II / III in Inghilterra e Brasile.&nbsp;Supportato da Operation Warp Speed, il vaccino potrebbe arrivare entro ottobre per gli operatori sanitari e le persone più a rischio.&nbsp;A giugno, AstraZeneca ha dichiarato che la loro capacità produttiva totale ammonta a due miliardi di dosi.</li><li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;sta testando il vaccino basato su un adenovirus chiamato Ad5, in collaborazione con l'Istituto di biologia&nbsp;dell'Accademia delle scienze mediche militari del&nbsp;paese&nbsp;.&nbsp;A maggio sono stati i primi in assoluto a pubblicare i dati di uno studio di fase 1 in un <a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.&nbsp;</li><li>Fase 2 e 3. Il Vaccino&nbsp; della società svedese-britannica&nbsp;AstraZeneca&nbsp;e&nbsp;dell'Università di Oxford in collaborazione con l'italiana Irbm&nbsp;utilizza un adenovirus chiamato ChAdOx1.&nbsp;Il vaccino sta iniziando i test di Fase II / III in Inghilterra e Brasile.&nbsp;Supportato da Operation Warp Speed, il vaccino potrebbe arrivare entro ottobre per gli operatori sanitari e le persone più a rischio.&nbsp;A giugno, AstraZeneca ha dichiarato che la loro capacità produttiva totale ammonta a due miliardi di dosi.</li><li>Fase 2. La società cinese&nbsp;CanSino Biologics&nbsp;sta testando il vaccino basato su un adenovirus chiamato Ad5, in collaborazione con l'Istituto di biologia&nbsp;dell'Accademia delle scienze mediche militari del&nbsp;paese&nbsp;.&nbsp;A maggio sono stati i primi in assoluto a pubblicare i dati di uno studio di fase 1 in un <a href=https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31208-3/fulltext>articolo&nbsp;su Lancet</a>.</li><li><p>PRECLINICA. I ricercatori del&nbsp;Beth Israel Deaconess Medical Center&nbsp;di Boston stanno testando un adenovirus chiamato Ad26&nbsp;.&nbsp;Johnson &amp; Johnson, scelto da Operation Warp Speed, ha annunciato a giugno che avrebbero iniziato le prove di Fase I / II a fine luglio.</p></li><li><p>PRECLINICA. La Big pharma americana&nbsp;Merck ha&nbsp;annunciato a maggio lo sviluppo di un vaccino contro i virus della stomatite vescicolare, lo stesso approccio utilizzato con successo per produrre l'unico vaccino approvato per l'Ebola.&nbsp;La società collabora con&nbsp;Iavi (International Aids Vaccine Initiative)&nbsp; un partenariato globale pubblico-privato senza scopo di lucro.</p></li><li><p>PRECLINICA. Il colosso svizzero&nbsp;Novartis&nbsp;produrrà un vaccino basato sulla terapia genica sviluppato dal&nbsp;Massachusetts Eye and Ear Hospital.&nbsp;Le prove di fase I inizieranno alla fine del 2020.</p></li></ul><h3>Vaccini a base di proteine, che usano una proteina del coronavirus o un frammento proteico per provocare la risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>FASE I&nbsp;e II. &nbsp;A maggio,&nbsp;Novavax, con&nbsp;sede nel Maryland,&nbsp;ha&nbsp;iniziato uno studio di fase I / II su un vaccino costituito da particelle microscopiche che trasportano frammenti di proteine ​​di coronavirus.&nbsp;La Coalition for Epidemic Preparedness Innovations sta investendo 384 milioni di dollari nel progetto.</li><li>FASE I. Clover Biopharmaceuticals&nbsp;ha sviluppato un vaccino contenente una proteina di coronavirus.&nbsp;Il vaccino verrebbe abbinato a un cosiddetto adiuvante, prodotto GSK&nbsp;, per stimolare ulteriormente il sistema immunitario.</li><li>PRECLINICA. Dopo l'epidemia di Sars nel 2002, i&nbsp;ricercatori del&nbsp;Baylor College of Medicine&nbsp;hanno iniziato a sviluppare un vaccino in grado di prevenire nuovi focolai.&nbsp;Nonostante i primi risultati promettenti, dopo la scomparsa della Sars è scomparso anche il supporto finanziario per la ricerca.&nbsp;Poiché i coronavirus che causano la Sars e Covid-19 sono molto simili, i ricercatori stanno rilanciando il progetto in collaborazione con il&nbsp;Texas Children's Hospital.</li><li>PRECLINICA. Un vaccino in via di sviluppo&nbsp;dell'Università di Pittsburgh&nbsp;, chiamato PittCoVacc, è un cerotto con&nbsp; 400 minuscoli aghi fatti di zucchero.&nbsp;Quando vengono posizionati sulla pelle, gli aghi si dissolvono e rilasciano proteine ​​virali nel corpo.</li><li>PRECLINICA. Un vaccino&nbsp;dell'Università&nbsp;australiana&nbsp;del Queensland&nbsp;eroga proteine ​​virali alterate per ottenere una risposta immunitaria più forte.&nbsp;A giugno, l'università e la società&nbsp;CSL hanno&nbsp;annunciato una partnership per avviare gli studi di Fase I, che potrebbero portare a milioni di dosi all'anno a partire dal 2021.&nbsp;Anche in questo caso GSK&nbsp;fornisce l'adiuvante per stimolare ulteriormente il sistema immunitario.</li><li>PRECLINICA. La francese&nbsp;Sanofi&nbsp;produrrà proteine ​​virali utilizzando virus ingegnerizzati che crescono all'interno delle cellule degli insetti.&nbsp;GSK&nbsp;integrerà queste proteine ​​con adiuvanti che stimolano il sistema immunitario.&nbsp;Se il vaccino avesse successo negli studi clinici, Sanofi ha affermato di poterne produrre almeno 600 milioni di dosi all'anno.</li><li>PRECLINICA. Il vaccino di&nbsp;Vaxart&nbsp;è una compressa orale contenente diverse proteine ​​virali.&nbsp;A giugno, la società americana ha annunciato che si sta preparando per le prove di Fase I nell'estate 2020.</li></ul><h3>Vaccini contro virus interi, che usano una versione indebolita o inattivata del coronavirus per provocare una risposta immunitaria.</h3><p>Tra questi ci sono:</p><ul><li>FASE I&nbsp;e II. La società privata cinese&nbsp;Sinovac Biotech&nbsp;sta testando un vaccino inattivato chiamato CoronaVac.&nbsp;Il 13 giugno la società ha annunciato che gli studi di fase I / II su 743 volontari non hanno dato effetti avversi gravi e hanno prodotto una risposta immunitaria.&nbsp;Sinovac sta avviando prove di Fase III in Cina e Brasile e sta costruendo una struttura per produrre fino a 100 milioni di dosi all'anno.</li><li>FASE I&nbsp;e II. &nbsp;La società cinese statale&nbsp;Sinopharm&nbsp;ha avviato studi di fase I / II su due virus vaccinali inattivati.&nbsp;La società ha annunciato di aver costruito una struttura a Pechino per produrre fino a 200 milioni di vaccini all'anno.</li><li>FASE I. I ricercatori&nbsp;dell'Istituto di biologia medica dell'Accademia cinese delle scienze mediche, che ha inventato i vaccini per la poliomielite e l'epatite A, stanno conducendo uno studio di fase I su un vaccino virale inattivato per Covid-19.</li></ul><h3>Vaccini riproposti, già in uso per altre malattie che possono anche proteggere da Covid-19.</h3><p><ul><li>FASE III. Il vaccino Bacillus Calmette-Guerin è stato sviluppato nei primi anni del 1900 come protezione contro la tubercolosi.&nbsp;Il&nbsp;Murdoch Children's Research Institute&nbsp;in Australia sta conducendo uno studio di fase 3&nbsp; e sono in corso numerosi altri studi per vedere se il vaccino protegge parzialmente contro il coronavirus.</li></ul></p>
-		</div>
-    </div>
-	
-	<div>
-		<p><b>Quali organi colpisce la malattia?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">
+		<div class="cont reveal">	
 	<p>All’inizio sembrava solo, si fa per dire, una “polmonite atipica” cioè una patologia 
 	respiratoria con caratteristiche simili a quelle dell’influenza, che tendeva però a 
 	degenerare prima, e in modo più grave. Ma via via che aumentavano i casi, la Covid-19, 
@@ -304,7 +401,7 @@
 	poi al cuore, ai reni, al fegato, all’intestino, al pancreas, ai vasi, oltreché, 
 	naturalmente, a polmoni, bronchi e vie aeree nel loro insieme. Secondo una sintesi 
 	di 100 milioni di documenti di ogni tipo relativi al virus pubblicata su ELife 
-	(https://elifesciences.org/articles/58040) , continuano ad aumentare le nuove 
+	https://elifesciences.org/articles/58040 , continuano ad aumentare le nuove 
 	localizzazioni della malattia. Una disamina tra le più complete dei possibili 
 	effetti del virus è giunta pochi giorni fa da uno studio autoptico condotto dai 
 	patologi dell’Università di Gottinga, in Germania, su 27 cadaveri, pubblicato sul 
@@ -342,12 +439,13 @@
 	il Sars-CoV 2 è in grado di infettare moltissimi distretti corporei.</p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Il nuovo coronavirus sta mutando?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">	
+		<div class="normal-text">
+			Il nuovo coronavirus sta mutando?
+		</div>
+		<div class="cont reveal">	
 	<p>Il Sars-CoV 2 sta mutando: lo dimostrano ormai numerosi studi condotti su 
 	casistiche di migliaia di persone. Tra le ultime spicca quella analizzata dai 
 	ricercatori della London School of Hygiene and Tropical Medicine (LSHTM), uscita su 
@@ -394,12 +492,13 @@
 	<a href=https://nextstrain.org/ncov/global?c=region>Nexstrain.org</a>.</p>
 		</div>
     </div>
-	
+	<br>
+
 	<div>
-		<p><b>Covid-19 è meno trasmissibile durante la stagione calda?</b></p>
-		<a href="#show"class="show">[Show]</a>
-		<a href="#hide"class="hide">/ [Hide]</a>
-		<div id="cont">	
+		<div class="normal-text">
+			Covid-19 è meno trasmissibile durante la stagione calda?
+		</div>
+		<div class="cont reveal">	
 	<p>Non c'è certezza su questo aspetto. Uno studio segnala come le 
 	aree più colpite si trovavano ad una 
 	<a href=https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2767010?utm_source=For_The_Media&amp;utm_medium=referral&amp;utm_campaign=ftm_links&amp;utm_term=061120>temperatura media tra 5 e 11 gradi e umidità bassa</a>. Il sole peraltro ha un'azione significativa sui virus, ma oltre a questo bisogna ricordare che le goccioline di saliva sono più instabili quando il clima è molto caldo-umido. A far sperare, ricordando però l'attenzione da mantenere per un'eventuale seconda ondata, è quanto riporta Guido Silvestri, docente alla Emory University di Atlanta (Usa), in un <a href=https://www.facebook.com/guido.silvestri.9/posts/10221670327883533>
@@ -414,6 +513,15 @@
     </div>
     </div>
 	
+	
+	<!-- Jquery -->		
+<script>
+
+	/* https://scrollrevealjs.org/ */
+
+	ScrollReveal().reveal('.reveal', { duration: 2000, distance: '60px', interval: 600, reset: true});
+	
+</script>
 
 
 </body>

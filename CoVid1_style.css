@@ -13,3 +13,16 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+.divTable {
+		margin: auto;
+        width:80%;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
