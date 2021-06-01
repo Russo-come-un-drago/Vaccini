@@ -16,11 +16,13 @@
 
 .inline{
 	height: 50px;
+	width: 20%;
 	/*display: inline-block;*/
 }
 
 @media (max-width: 768px) {
-	.menu{flex-wrap: wrap;}
+	.menu{flex-wrap: wrap; height: auto;}
+	.inline{width: 100%;}
 }
 
 /* https://www.w3schools.com/css/css_link.asp */
